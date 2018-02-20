@@ -21,6 +21,7 @@ public class SpringbootlearnApplication {
 			repo.save(new UserAccount("pritam", "pritam"));
 			System.out.println("pritam saved");
 			repo.save(new UserAccount("sarita", "pritam"));
+			int i= 1/0;
 		};
 	}
 }
